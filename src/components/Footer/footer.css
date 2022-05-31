@@ -1,13 +1,28 @@
 .footer {
-    text-align: center;
-    padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
-    clear: both;
-    position: relative;
-    height: 200px;
-    margin-top: -200px;
-  }
+  text-align: center;
+  padding: 55px;
+  color: white;
+  clear: both;
+  position: relative;
+  height: 150px;
+  margin-top: -200px;
+}
 
+.fa {
+  /* display: flex; */
+  /* flex-direction: row; */
+  padding: 0.8em;
+  font-size: 66px;
+  font-weight: bolder;
+}
 
-  
+/* Change the color of links on hover */
+.fa a:hover {
+  background-color: #ddd;
+}
+
+/* Add a color to the active/current link */
+.fa a.active {
+  background-color: #04aa6d;
+  color: white;
+}

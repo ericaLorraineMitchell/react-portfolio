@@ -1,0 +1,73 @@
+.works ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+  }
+  
+  .works ul li {
+    border: 1px solid #E2E2E2;
+    border-radius: .5rem;
+  }
+  
+  .works ul li figure {
+    max-height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    position: relative;
+  }
+  
+  .works ul li figure img {
+    width: 100%;
+  }
+  
+  .works ul li figure figcaption {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0,.7);
+    width: 100%;
+  }
+  
+  .works ul li figure figcaption h3 {
+    color: white;
+    padding: .75rem;
+    font-size: 1.25rem;
+  }
+  
+  .works ul li p {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding: 1rem .75rem;
+    color: #666666;
+  }
+  
+  .works ul li a {
+    padding: .5rem 1rem;
+    margin: .5rem;
+  }
+  
+
+  /* .square-container {
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  
+  .square {
+    position: relative;
+    flex-basis: calc(25% - 10px);
+    margin: 5px;
+    border: 1px solid;
+    box-sizing: border-box;
+  }
+  
+  .square::before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+  
+  .square .content {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%; */

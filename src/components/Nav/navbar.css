@@ -1,17 +1,18 @@
 .navbar {
   display: flex;
   list-style: none;
+  padding: 55px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color:black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  background-color: DarkSalmon;
+  font-size: 27px;
+  font-weight: bold;
 }
 
 /* Change the color of links on hover */

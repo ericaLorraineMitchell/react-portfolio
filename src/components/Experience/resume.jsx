@@ -3,11 +3,10 @@ import React from 'react';
 const Resume = () => {
 
 return(
-<section className="mb-5">
-    <h1 className="resume">Resume: Erica Lorraine Mitchell</h1>
+<section className="resume-container">
+    <h1 className="resume-title">Erica Lorraine Mitchell</h1>
         <hr></hr>
-        <div className="row justify-content-center" id="resume">
-            <div className="mt-5 pl-5 pr-5">
+        <div className="resume" id="resume">
             Technical Project Manager and Fullstack web developer known for active listening skills and relations-building teamwork. Proven multiple project execution by adapting to client expectations through innovative problem-solving with strategic planning, risk management, and process improvement. Firsthand agile project management experience with software startup. Passionate about leading development teams that execute intuitive and inclusive user experiences on the web.
 
                 <p>
@@ -15,7 +14,6 @@ return(
                 <br></br>
                 </p>
             </div>
-        </div>
 
       
 </section>

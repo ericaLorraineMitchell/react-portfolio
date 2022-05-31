@@ -5,7 +5,7 @@ import Nav from "./components/Nav/navbar";
 import About from "./components/About/about";
 import Skills from "./components/Experience/skills.jsx";
 import Resume from "./components/Experience/resume";
-// import Portfolio from "./components/Portfolio/portfolio";
+import Portfolio from "./components/Portfolio/portfolio";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 import "./App.css";
@@ -15,7 +15,7 @@ const App = () => {
     <>
     <Router>
     <Nav />
-      <Header />
+    <Header /> 
         <Switch>
           <Route exact path="/">
             <About />
@@ -26,13 +26,14 @@ const App = () => {
           <Route exact path="/resume">
             <Resume />
           </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+          </Route>
           <Route exact path="/contact">
             <Contact />
           </Route>
         </Switch>
       </Router>
-      {/* <Portfolio /> */}
-
       <Footer />
     </>
   );
