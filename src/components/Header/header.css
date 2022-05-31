@@ -1,0 +1,14 @@
+.column {
+    float: right;
+    width: 50%;
+  }
+
+  .img {
+     float: top !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    }

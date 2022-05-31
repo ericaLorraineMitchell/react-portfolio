@@ -13,10 +13,9 @@ import "./App.css";
 const App = () => {
   return (
     <>
+    <Router>
+    <Nav />
       <Header />
-      <Router>
-        <Nav />
-
         <Switch>
           <Route exact path="/">
             <About />
@@ -40,3 +39,61 @@ const App = () => {
 };
 
 export default App;
+
+// export default function App() {
+//   return (
+//     <Router>
+//       <div>
+//         <nav>
+//           <ul>
+//             <li>
+//               <Link to="/">About</Link>
+//             </li>
+//             <li>
+//               <Link to="/skills">Skills</Link>
+//             </li>
+//             <li>
+//               <Link to="/resume">Resume</Link>
+//             </li>
+//             <li>
+//               <Link to="/contact">Contact</Link>
+//             </li>
+//           </ul>
+//         </nav>
+
+//         {/* A <Switch> looks through its children <Route>s and
+//             renders the first one that matches the current URL. */}
+//         <Switch>
+//           <Route path="/skills">
+//             <Skills />
+//           </Route>
+//           <Route path="/resume">
+//             <Resume />
+//           </Route>
+//           <Route path="/">
+//             <About />
+//           </Route>
+//           <Route path="/contact">
+//             <Contact />
+//           </Route>
+//         </Switch>
+//       </div>
+//     </Router>
+//   );
+// }
+
+// // function About() {
+// //   return <h2>About</h2>;
+// // }
+
+// // function Skills() {
+// //   return <h2>Skills</h2>;
+// // }
+
+// // function Contact() {
+// //   return <h2>Contact</h2>;
+// // }
+
+// // function Resume() {
+// //   return <h2>Resume</h2>;
+// // }

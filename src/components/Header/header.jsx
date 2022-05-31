@@ -5,9 +5,10 @@ import Favicon from '../assets/favicon.png'
 const Header = () => {
  return (
      <header>
-         <div className="container header-container">
-             <img src={Favicon} alt="favicon"  /> <span><h3>Hi, Im Erica Lorraine Mitchell</h3></span>
-             <h4>A Technical Project Manager and Fullstack Developer</h4>
+         <div className="column header-container">
+             <img src={Favicon} alt="favicon"/>
+             <span className="title"> <h1>Hi, Im Erica Lorraine Mitchell</h1>
+             <h3>Technical Project Manager and Fullstack Developer</h3> </span>
          </div>
      </header>
  )

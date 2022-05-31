@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from "react-router-dom";
-// import Nav from "./components/Nav/navbar";
+import { Link } from "react-router-dom"
+import './navbar.css'
 
 const Navbar = () => {
   return (
-  <div>
+  <div className="navbar topnav">
     <li>
       <Link to="/">About</Link>
     </li>

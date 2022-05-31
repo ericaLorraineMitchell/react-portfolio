@@ -1,0 +1,13 @@
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+  }
+
+
+  
