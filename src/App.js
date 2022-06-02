@@ -13,9 +13,9 @@ import "./App.css";
 const App = () => {
   return (
     <>
-    <Router>
-    <Nav />
-    <Header /> 
+      <Router>
+        <Nav />
+        <Header />
         <Switch>
           <Route exact path="/">
             <About />

@@ -15,7 +15,7 @@ const Portfolio = () => {
   <p>
   I have created a colored coded business planner for the work day. It reminds the user of the current date and time as well as allows for saving of your event for its appropriate time slot. Using local storage allows retrieval of the event item so that it is never lost for the user.
   </p>
-  <a href="https://ericalorrainemitchell.github.io/work-day-planner/">Visit Website</a>
+  <a href="https://ericalorrainemitchell.github.io/work-day-planner/">Visit Site</a>
 </li>
 <li>
   <figure src=".assets/note-taker-image.png" alt="notetaking image">
